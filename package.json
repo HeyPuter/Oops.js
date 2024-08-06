@@ -1,0 +1,24 @@
+{
+  "name": "oops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [
+    "Undo",
+    "Redo",
+    "Oops",
+    "Command",
+    "Oops.js"
+  ],
+  "author": "Nariman Jelveh",
+  "license": "MIT",
+  "description": "Add powerful and flexible undo/redo management to your JavaScript applications",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

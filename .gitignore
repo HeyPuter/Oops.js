@@ -1,0 +1,5 @@
+# macOS hidden directory settings file
+.DS_Store
+
+# Dependency directories
+node_modules/
