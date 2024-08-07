@@ -40,7 +40,6 @@ Oops.js provides a robust implementation of the command pattern, allowing you to
 - **Automatic Command Merging:** Intelligently merges commands executed within a specified time window.
 - **Snapshot System:** Creates and recovers from snapshots for enhanced error handling and state preservation.
 - **History Compression:** Optimizes memory usage by compressing the command history when it exceeds a threshold.
-- **Custom Command Registration:** Supports registration of custom commands for application-specific operations.
 - **Event Notification System:** Provides a robust event system for state change notifications.
 - **State Serialization:** Enables serialization and deserialization of the entire undo/redo state for persistence.
 - **Configurable Parameters:** Offers customizable stack size, snapshot interval, and compression threshold.
@@ -58,13 +57,13 @@ Oops.js provides a robust implementation of the command pattern, allowing you to
 To install Oops.js using npm, run the following command in your project directory:
 
 ```bash
-npm install oops-js
+npm install @heyputer/oops.js
 ```
 
 Then, you can import it in your JavaScript file:
 
 ```js
-import Oops from 'oops.js';
+import Oops from '@heyputer/oops.js';
 ```
 
 <br>
@@ -74,7 +73,7 @@ import Oops from 'oops.js';
 To use Oops.js directly in your HTML file via CDN, add the following script tag to your HTML:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/oops.js@latest/dist/oops.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@heyputer/oops.js@latest/dist/oops.min.js"></script>
 ```
 
 This will make the `Oops` class available globally in your JavaScript code.
