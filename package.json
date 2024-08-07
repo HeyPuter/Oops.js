@@ -1,7 +1,7 @@
 {
   "name": "@heyputer/oops.js",
   "description": "Add powerful and flexible undo/redo management to your JavaScript applications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nariman Jelveh",
   "license": "MIT",
   "main": "src/index.js",
